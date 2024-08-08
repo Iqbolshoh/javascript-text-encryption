@@ -1,0 +1,166 @@
+/* General Styles */
+.container {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+.input-container {
+    position: relative;
+    margin-top: 20px;
+}
+
+.input-container textarea {
+    width: 100%;
+    height: 150px;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    resize: none;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease;
+}
+
+.copy-icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #555;
+    font-size: 20px;
+    display: none;
+}
+
+.input-container:hover .copy-icon {
+    display: inline-block;
+}
+
+/* Specific Textarea Styles */
+#text {
+    color: #333;
+}
+
+#encrypted {
+    color: #fff;
+    background-color: #4CAF50;
+}
+
+#text:hover {
+    background-color: #f0f0f0;
+}
+
+#encrypted:hover {
+    background-color: #45a049;
+}
+
+#encrypted::placeholder {
+    color: white;
+}
+
+/* Header Styles */
+h1 {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 28px;
+    color: black;
+}
+
+h2 {
+    color: #333;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 1200px) {
+    .container {
+        padding: 0 40px;
+    }
+
+    h1 {
+        font-size: 32px;
+        padding-top: 40px;
+    }
+
+    h2 {
+        font-size: 24px;
+        margin-top: 30px;
+    }
+
+    .input-container textarea {
+        height: 180px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .input-container textarea {
+        height: 160px;
+        font-size: 15px;
+    }
+
+    .copy-icon {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+        padding-top: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    .input-container textarea {
+        height: 140px;
+        font-size: 14px;
+    }
+
+    .copy-icon {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    .input-container textarea {
+        height: 120px;
+        font-size: 13px;
+    }
+
+    .copy-icon {
+        font-size: 14px;
+    }
+}
