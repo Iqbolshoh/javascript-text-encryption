@@ -1,8 +1,8 @@
 /* General Styles */
 .container {
     margin: 20px auto;
-    max-width: 800px;
-    padding: 0 20px;
+    max-width: 1000px;
+    padding: 0 30px;
 }
 
 .input-container {
@@ -12,9 +12,9 @@
 
 .input-container textarea {
     width: 100%;
-    height: 150px;
-    padding: 15px;
-    font-size: 16px;
+    height: 250px;
+    padding: 20px;
+    font-size: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
     resize: none;
@@ -29,7 +29,7 @@
     transform: translateY(-50%);
     cursor: pointer;
     color: #555;
-    font-size: 20px;
+    font-size: 24px;
     display: none;
 }
 
@@ -38,39 +38,39 @@
 }
 
 /* Specific Textarea Styles */
-#text {
+#matn {
     color: #333;
 }
 
-#encrypted {
+#shifr {
     color: #fff;
     background-color: #4CAF50;
 }
 
-#text:hover {
+#matn:hover {
     background-color: #f0f0f0;
 }
 
-#encrypted:hover {
+#shifr:hover {
     background-color: #45a049;
 }
 
-#encrypted::placeholder {
+#shifr::placeholder {
     color: white;
 }
 
 /* Header Styles */
 h1 {
-    padding-top: 20px;
+    padding-top: 30px;
     text-align: center;
-    font-size: 28px;
+    font-size: 40px;
     color: black;
 }
 
 h2 {
     color: #333;
-    font-size: 22px;
-    margin-top: 20px;
+    font-size: 28px;
+    margin-top: 25px;
 }
 
 /* Responsive Styles */
@@ -80,21 +80,47 @@ h2 {
     }
 
     h1 {
-        font-size: 32px;
-        padding-top: 40px;
+        font-size: 35px;
     }
 
     h2 {
-        font-size: 24px;
-        margin-top: 30px;
+        font-size: 25px;
     }
 
     .input-container textarea {
-        height: 180px;
+        height: 230px;
+        font-size: 18px;
+    }
+
+    .copy-icon {
+        font-size: 22px;
     }
 }
 
 @media only screen and (max-width: 768px) {
+    .container {
+        padding: 0 30px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    .input-container textarea {
+        height: 210px;
+        font-size: 17px;
+    }
+
+    .copy-icon {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
     .container {
         padding: 0 20px;
     }
@@ -108,59 +134,34 @@ h2 {
     }
 
     .input-container textarea {
-        height: 160px;
-        font-size: 15px;
-    }
-
-    .copy-icon {
-        font-size: 18px;
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    .container {
-        padding: 0 15px;
-    }
-
-    h1 {
-        font-size: 24px;
-        padding-top: 20px;
-    }
-
-    h2 {
-        font-size: 18px;
-        margin-top: 15px;
-    }
-
-    .input-container textarea {
-        height: 140px;
-        font-size: 14px;
-    }
-
-    .copy-icon {
+        height: 180px;
         font-size: 16px;
+    }
+
+    .copy-icon {
+        font-size: 18px;
     }
 }
 
 @media only screen and (max-width: 380px) {
     .container {
-        padding: 0 10px;
+        padding: 0 15px;
     }
 
     h1 {
-        font-size: 22px;
+        font-size: 26px;
     }
 
     h2 {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .input-container textarea {
-        height: 120px;
-        font-size: 13px;
+        height: 160px;
+        font-size: 15px;
     }
 
     .copy-icon {
-        font-size: 14px;
+        font-size: 16px;
     }
 }
