@@ -10,6 +10,14 @@ This is a simple web application that allows users to encrypt and decrypt text u
 - **Text Decryption**: Encrypted text can be decrypted back to its original form.
 - **Copy to Clipboard**: Easily copy the text or encrypted text to the clipboard with a single click.
 
+## Screenshots
+
+### Desktop View
+![Desktop View](https://github.com/Iqbolshoh/javascript-text-encryption/blob/main/images/desktop.png)
+
+### Mobile View
+![Mobile View](https://github.com/Iqbolshoh/javascript-text-encryption/blob/main/images/mobile.png)
+
 ## How It Works
 
 - The app uses the [CryptoJS](https://cdnjs.com/libraries/crypto-js) library to handle AES encryption and decryption.
@@ -63,14 +71,6 @@ This is a simple web application that allows users to encrypt and decrypt text u
   [CryptoJS Documentation](https://cryptojs.gitbook.io/docs/)
 - **Font Awesome**: Used for the copy icons.  
   [Font Awesome Documentation](https://fontawesome.com/v5/docs)
-
-## Screenshots
-
-### Desktop View
-![Desktop View](https://github.com/Iqbolshoh/javascript-text-encryption/blob/main/images/desktop.png)
-
-### Mobile View
-![Mobile View](https://github.com/Iqbolshoh/javascript-text-encryption/blob/main/images/mobile.png)
 
 ## Author
 
