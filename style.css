@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #7E846B;
+    background-color: #F5F5F5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,25 +16,26 @@ body {
 }
 
 .container {
-    background-color: #ADB6A5;
+    background-color: #FFFFFF;
     padding: 25px;
     border-radius: 12px;
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
     max-width: 500px;
     width: 100%;
+    border: 1px solid #E0E0E0;
 }
 
 h1 {
     font-size: 28px;
     text-align: center;
     margin-bottom: 25px;
-    color: #0f0f0e;
+    color: #333333;
 }
 
 h2 {
     font-size: 22px;
     margin-bottom: 15px;
-    color: #0f0f0e;
+    color: #333333;
 }
 
 .input-container {
@@ -46,18 +47,18 @@ textarea {
     width: 100%;
     padding: 15px;
     border-radius: 8px;
-    border: 1px solid #0f0f0e;
+    border: 1px solid #CCCCCC;
     font-size: 16px;
     resize: none;
     min-height: 120px;
-    background-color: #EBEDE9;
-    color: #0f0f0e;
+    background-color: #FAFAFA;
+    color: #333333;
     transition: all 0.3s ease;
 }
 
 textarea:focus {
-    border-color: #222725;
-    background-color: #ffffff;
+    border-color: #007BFF;
+    background-color: #FFFFFF;
 }
 
 textarea::placeholder {
@@ -69,12 +70,12 @@ textarea::placeholder {
     top: 15px;
     right: 15px;
     cursor: pointer;
-    color: #000;
+    color: #707070;
     transition: color 0.3s ease;
 }
 
 .copy-icon:hover {
-    color: #455d53;
+    color: #0f0000;
 }
 
 /* Responsive Styles */
