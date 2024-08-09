@@ -45,7 +45,7 @@ h2 {
 
 textarea {
     width: 100%;
-    padding: 15px;
+    padding: 15px 27px 15px 15px;
     border-radius: 8px;
     border: 1px solid #CCCCCC;
     font-size: 16px;
@@ -67,8 +67,8 @@ textarea::placeholder {
 
 .copy-icon {
     position: absolute;
-    top: 15px;
-    right: 15px;
+    top: 8px;
+    right: 8px;
     cursor: pointer;
     color: #707070;
     transition: color 0.3s ease;
