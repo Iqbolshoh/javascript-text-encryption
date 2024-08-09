@@ -2,6 +2,8 @@
 
 This is a simple web application that allows users to encrypt and decrypt text using AES encryption. The application is built with HTML, CSS, and JavaScript.
 
+![Project Banner](https://github.com/Iqbolshoh/javascript-text-encryption/blob/main/banner.png)
+
 ## Features
 
 - **Text Encryption**: Enter any text to encrypt it securely.
@@ -22,10 +24,25 @@ This is a simple web application that allows users to encrypt and decrypt text u
 
 ## Installation
 
-To use this project:
+### Downloading the Project
 
-1. Clone or download the repository.
-2. Open `index.html` in your web browser.
+1. **Clone the Repository**:  
+   Use the following command in your terminal to clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/Iqbolshoh/javascript-text-encryption.git
+   ```
+
+2. **Download as ZIP**:  
+   Alternatively, you can download the project as a ZIP file directly from GitHub:
+   - Go to the [repository page](https://github.com/Iqbolshoh/javascript-text-encryption).
+   - Click the "Code" button.
+   - Select "Download ZIP" to download the entire project as a ZIP file.
+   - Extract the contents of the ZIP file to a folder on your computer.
+
+### Running the Project
+
+1. After cloning or downloading, navigate to the project directory.
+2. Open the `index.html` file in your web browser.
 
 ## Usage
 
@@ -47,7 +64,60 @@ To use this project:
 - **Font Awesome**: Used for the copy icons.  
   [Font Awesome Documentation](https://fontawesome.com/v5/docs)
 
+## Screenshots
+
+### Desktop View
+![Desktop View](https://github.com/Iqbolshoh/javascript-text-encryption/blob/main/desktop.png)
+
+### Mobile View
+![Mobile View](https://github.com/Iqbolshoh/javascript-text-encryption/blob/main/mobile.png)
+
 ## Author
 
 - **Iqbolshoh Ilhomjonov**  
   [GitHub Profile](https://github.com/iqbolshoh)
+
+  ## Connect with Me
+
+I love connecting with new people and exploring new opportunities. Feel free to reach out to me through any of the
+platforms below:
+
+<table>
+    <tr>
+        <td>
+            <a href="https://t.me/iqbolshoh_777">
+                <img src="https://github.com/gayanvoice/github-active-users-monitor/blob/master/public/images/icons/telegram.svg"
+                    height="48" width="48" alt="Telegram" />
+            </a>
+        </td>
+        <td>
+            <a href="https://instagram.com/iqbolshoh_777" target="blank"><img align="center"
+                    src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg"
+                    alt="instagram" height="48" width="48" /></a>
+        </td>
+        <td>
+            <a href="https://wa.me/qr/22PVFQSMQQX4F1">
+                <img src="https://github.com/gayanvoice/github-active-users-monitor/blob/master/public/images/icons/whatsapp.svg"
+                    height="48" width="48" alt="WhatsApp" />
+            </a>
+        </td>
+        <td>
+            <a href="https://x.com/iqbolshoh_777">
+                <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" height="48"
+                    width="48" alt="Twitter" />
+            </a>
+        </td>
+        <td>
+            <a href="https://www.linkedin.com/in/iqbolshoh/">
+                <img src="https://github.com/gayanvoice/github-active-users-monitor/blob/master/public/images/icons/linkedin.svg"
+                    height="48" width="48" alt="LinkedIn" />
+            </a>
+        </td>
+        <td>
+            <a href="mailto:iilhomjonov777@gmail.com">
+                <img src="https://github.com/gayanvoice/github-active-users-monitor/blob/master/public/images/icons/gmail.svg"
+                    height="48" width="48" alt="Email" />
+            </a>
+        </td>
+    </tr>
+</table>
