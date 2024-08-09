@@ -2,7 +2,7 @@
 
 This is a simple web application that allows users to encrypt and decrypt text using AES encryption. The application is built with HTML, CSS, and JavaScript.
 
-![Project Banner](https://github.com/Iqbolshoh/javascript-text-encryption/blob/main/banner.png)
+![Project Banner](https://github.com/Iqbolshoh/javascript-text-encryption/blob/main/images/banner.png)
 
 ## Features
 
@@ -67,10 +67,10 @@ This is a simple web application that allows users to encrypt and decrypt text u
 ## Screenshots
 
 ### Desktop View
-![Desktop View](https://github.com/Iqbolshoh/javascript-text-encryption/blob/main/desktop.png)
+![Desktop View](https://github.com/Iqbolshoh/javascript-text-encryption/blob/main/images/desktop.png)
 
 ### Mobile View
-![Mobile View](https://github.com/Iqbolshoh/javascript-text-encryption/blob/main/mobile.png)
+![Mobile View](https://github.com/Iqbolshoh/javascript-text-encryption/blob/main/images/mobile.png)
 
 ## Author
 
