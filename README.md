@@ -18,18 +18,6 @@ This is a simple web application that allows users to encrypt and decrypt text u
 - **Text Decryption**: Encrypted text can be decrypted back to its original form.
 - **Copy to Clipboard**: Easily copy the text or encrypted text to the clipboard with a single click.
 
-## How It Works
-
-- The app uses the [CryptoJS](https://cdnjs.com/libraries/crypto-js) library to handle AES encryption and decryption.
-- The text entered by the user is encrypted with a predefined passphrase (`Iqbolshoh_777`).
-- The encrypted text is displayed in a separate text area, where it can also be decrypted.
-
-## Project Structure
-
-- `index.html`: The main HTML file that includes the layout and structure of the application.
-- `style.css`: Contains the CSS styles to make the application visually appealing and responsive.
-- `script.js`: Handles the encryption and decryption logic, as well as the copy to clipboard functionality.
-
 ## Installation
 
 ### Downloading the Project
