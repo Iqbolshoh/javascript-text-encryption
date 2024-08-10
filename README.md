@@ -6,7 +6,7 @@ This is a simple web application that allows users to encrypt and decrypt text u
 
 ### Desktop
 
-![Desktop Preview](./images/banner.png)
+![Desktop Preview](./images/desktop.png)
 
 ### Mobile
 
