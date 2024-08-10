@@ -30,6 +30,18 @@ This is a simple web application that allows users to encrypt and decrypt text u
 - `style.css`: Contains the CSS styles to make the application visually appealing and responsive.
 - `script.js`: Handles the encryption and decryption logic, as well as the copy to clipboard functionality.
 
+## Technologies
+
+<div style="display: flex; flex-wrap: wrap; gap: 5px;">
+    <img src="https://img.shields.io/badge/HTML-%23F06529.svg?style=for-the-badge&logo=html5&logoColor=white"
+        alt="HTML">
+    <img src="https://img.shields.io/badge/CSS-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS">
+    <img src="https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"
+        alt="JavaScript">
+</div>
+
+
+
 ## Installation
 
 ### Downloading the Project
