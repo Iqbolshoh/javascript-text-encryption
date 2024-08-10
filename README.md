@@ -75,6 +75,10 @@ This is a simple web application that allows users to encrypt and decrypt text u
         alt="JavaScript">
 </div>
 
+## Contributing
+
+Feel free to submit pull requests or open issues if you have suggestions for improvements or encounter any problems.
+
 ## Connect with Me
 
 I love connecting with new people and exploring new opportunities. Feel free to reach out to me through any of the platforms below:
