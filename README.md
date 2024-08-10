@@ -65,7 +65,7 @@ This is a simple web application that allows users to encrypt and decrypt text u
 3. **Copying Text**:
    - Click the copy icon next to the text area to copy the text to your clipboard.
 
-## Technologies
+## Technologies Used
 
 <div style="display: flex; flex-wrap: wrap; gap: 5px;">
     <img src="https://img.shields.io/badge/HTML-%23F06529.svg?style=for-the-badge&logo=html5&logoColor=white"
